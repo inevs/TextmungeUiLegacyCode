@@ -5,6 +5,8 @@ apply from: 'dslExtensions.gradle'
 
 defaultTasks 'check'
 
+sourceCompatibility = 1.7
+
 repositories {
     mavenCentral()
 }
@@ -21,9 +23,6 @@ configurations.all {
 }
 
 tasks.eclipse.dependsOn(cleanEclipse)
-eclipse.jdt {
-    sourceCompatibility = 1.7
-}
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.4'
