@@ -1,8 +1,9 @@
-# Clone repo into own Project
+# TextmungeUiLegacyCode
 
-```
-git clone <repo> my-project
-```
+This is an example to refactor legacy code. Try to add new functionality: 
+
+  * I want to munge more than one word.
+  * I want to ignore punctuation marks.
 
 # Working with the code
 
